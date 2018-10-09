@@ -1,0 +1,47 @@
+.nav{
+    border:1px solid lightblue;
+    border-width:1px 0;
+    background-color: lightgrey;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+form.login {
+    margin: 10px 20px;
+    padding: 20px;
+    width: 180px;
+    float: right;
+    display: table;
+    border: 1px solid lightblue;
+    background-color: lightgrey;
+    border-width: 1px;
+
+}
+div.login {
+    display: table-row;
+}
+#loginLabel {
+    display: table-cell;
+    margin-bottom: 5px;
+}
+#loginLabel {
+    padding-right: 10px;
+}
+div.image {
+	text-align: center;
+	font-size: 30px;
+}
+.image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
