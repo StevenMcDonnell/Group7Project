@@ -16,7 +16,7 @@
 }
 form.login {
     margin: 10px 20px;
-    padding: 20px;
+    padding: 35px;
     width: 180px;
     float: right;
     display: table;
@@ -24,9 +24,6 @@ form.login {
     background-color: lightgrey;
     border-width: 1px;
 
-}
-div.login {
-    display: table-row;
 }
 #loginLabel {
     display: table-cell;
@@ -40,8 +37,17 @@ div.image {
 	font-size: 30px;
 }
 .image {
-	display: block;
+    display: -webkit-box;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
+    height: auto;
+}
+div.info {
+    height: 1px;
+   width: 450px;
+   background: lightgrey;
+   display: table-cell;
+   margin: 0 auto;
+   padding: 10px;
 }
