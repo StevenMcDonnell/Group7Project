@@ -1,3 +1,8 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    font-family: sans-serif;
+}
 .nav{
     border:1px solid lightblue;
     border-width:1px 0;
@@ -14,34 +19,50 @@
     display:inline-block;
     padding:10px;
 }
-form.login {
-    margin: 10px 20px;
-    padding: 35px;
-    width: 180px;
-    float: right;
-    display: table;
-    border: 1px solid lightblue;
-    background-color: lightgrey;
-    border-width: 1px;
-
-}
-#loginLabel {
-    display: table-cell;
-    margin-bottom: 5px;
-}
-#loginLabel {
-    padding-right: 10px;
-}
-div.image {
-	text-align: center;
-	font-size: 30px;
-}
 .image {
     display: -webkit-box;
     margin-left: auto;
     margin-right: auto;
     width: auto;
     height: auto;
+    position: absolute;
+}
+.loginBox {
+    background: url("resources/loginBackground.jpg") repeat;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.loginBox h2{
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.loginBox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid white;
+}
+#text {
+    font-size: 10;
+    color: white;
+}
+#submit {
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    background: black;
+    padding: 1px;
+    margin: 10px;
+
+}
+div.image {
+	text-align: center;
+	font-size: 30px;
 }
 div.info {
     height: 1px;
@@ -50,4 +71,8 @@ div.info {
    display: table-cell;
    margin: 0 auto;
    padding: 10px;
+}
+#icon {
+    color: white;
+    size: 2px;
 }
