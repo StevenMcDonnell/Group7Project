@@ -1,8 +1,7 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 .nav{
-    border:1px solid lightblue;
+    border:15px solid lightblue;
     border-width:1px 0;
-    background-color: lightgrey;
     list-style:none;
     margin:0;
     padding:0;
@@ -14,6 +13,7 @@
 .nav a{
     display:inline-block;
     padding:10px;
+    color: whitesmoke;
 }
 .image {
     display: -webkit-box;
@@ -22,6 +22,7 @@
     width: auto;
     height: auto;
     position: absolute;
+    color: whitesmoke;
 }
 body {
     margin: 0;
@@ -39,6 +40,7 @@ body {
     color: white;
     border: 5px solid #fff;
     padding: 30px;
+    border-radius: 5%;
 }
 .registerBox h1{
     border-bottom: 5px solid;
