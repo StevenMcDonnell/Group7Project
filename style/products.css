@@ -1,0 +1,96 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    font-family: sans-serif;
+    
+}
+.nav{
+    border:15px solid lightblue;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: black;
+}
+.image {
+    display: -webkit-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+.loginBox {
+    background: url("resources/loginBackground.jpg") repeat;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5%;
+}
+.loginBox h2{
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.loginBox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid white;
+}
+#text {
+    font-size: 10;
+    color: white;
+}
+#submit {
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    background: black;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 5%;
+
+}
+div.image {
+	text-align: center;
+	font-size: 30px;
+}
+
+.someText {
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background: skyblue;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5%;
+}
+#icon {
+    color: white;
+
+}
+#submit:hover {
+    background-color: yellow;
+    color: black;
+}
+#pageName{
+	background-color: #505050;
+}
+#category{
+	background-color: #808080;
+}
